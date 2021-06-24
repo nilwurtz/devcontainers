@@ -1,6 +1,9 @@
 name: Format
 
-on: push
+on:
+  push:
+    paths-ignore:
+      - .github/workflows/**
 
 jobs:
   format:
