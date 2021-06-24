@@ -8,4 +8,8 @@ RUN apt-get update && \
 RUN useradd -m --uid 1000 --groups sudo fsharp && \
     echo "fsharp:fsharp" | chpasswd
 
+USER fsharp
 WORKDIR /home/fsharp
+
+RUN echo "alias ll='ls -l'" >> .bash_aliases && \
+    echo "alias la='ls -la'" >> .bash_aliases
