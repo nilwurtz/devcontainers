@@ -1,0 +1,12 @@
+{
+  "editor.trimAutoWhitespace": true,
+  "[json]": {
+      "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.tabSize": 2
+  },
+  "[yaml]": {
+    "editor.tabSize": 2,
+  }
+}
