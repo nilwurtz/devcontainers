@@ -16,6 +16,7 @@ jobs:
           node-version: '14'
 
       - name: Check format
+        continue-on-error: true
         run: npx prettier --check .
 
       - name: Run format if needed
