@@ -1,5 +1,5 @@
 {
-    "trailing-spaces.trimOnSave": true,
-    "editor.formatOnSave": false,
-    "files.trimTrailingWhitespace": true,
+  "trailing-spaces.trimOnSave": true,
+  "editor.formatOnSave": false,
+  "files.trimTrailingWhitespace": true
 }
