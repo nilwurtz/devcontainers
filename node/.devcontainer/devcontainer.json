@@ -1,14 +1,12 @@
 {
-	"name": "Node.js",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"args": { "VARIANT": "16" }
-	},
+  "name": "Node.js",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": { "VARIANT": "16" }
+  },
 
-	"settings": {},
+  "settings": {},
 
-	"extensions": [
-		"dbaeumer.vscode-eslint"
-	],
-	"remoteUser": "node"
+  "extensions": ["dbaeumer.vscode-eslint"],
+  "remoteUser": "node"
 }
